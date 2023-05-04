@@ -60,9 +60,9 @@ export interface User {
   userAgent: string;
 }
 
-export interface Message {
+export interface Chat {
   text: string;
-  time: string;
+  sendTime: string;
   receiver: string;
   response: string;
   responseTime: string;
