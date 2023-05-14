@@ -1,0 +1,20 @@
+<div class="body">
+  Login
+  <form (submit)="login(firstName.value, lastName.value)">
+    <label>First Name</label><br />
+    <input
+      name="firstName"
+      #firstName
+      type="text"
+      placeholder="Your first name..."
+    /><br/>
+    <label>Last Name</label><br />
+    <input
+      name="lastName"
+      #lastName
+      type="text"
+      placeholder="Your last name..."
+    /><br />
+    <input type="submit" value="Login" />
+  </form>
+</div>
